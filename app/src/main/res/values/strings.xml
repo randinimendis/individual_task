@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">mad_pro</string>
+    <string name="tex1">Product </string>
+    <string name="hed1"><![CDATA[Buy & Sell]]></string>
+    <string name="but1_by">BUY</string>
+    <string name="but2_sell">Sell</string>
+    <string name="hed2">Buy</string>
+    <string name="by_tex1">Baby Agarwood Plants</string>
+    <string name="by_tex_pri1">price 10 baby plants : Rs.100,000</string>
+    <string name="by_but_view1">view</string>
+    <string name="by_tex_pri2">price 1 machine : Rs.20000</string>
+    <string name="by_tex2">Drill machine</string>
+    <string name="by_but_view2">View</string>
+    <string name="by_tex3">Inoculant recipe</string>
+    <string name="by_tex_pri3">price 1 machine : Rs.20000</string>
+    <string name="by_but_">View</string>
+    <string name="item_viw_1">Iteam Viwe</string>
+    <string name="iteam_by_tex1">We offer you to purchase Agarwood plants grown at our Ayagama Estate which takes about 8 years to fully grow and ready to harvest. From pruning to pest control your purchased plants will be taken care by our experienced staff.  giving you the opportunity to earn a significant surplus.</string>
+    <string name="item_by_tex2">Baby Agarwood Plants</string>
+    <string name="by_iteam_buy_now">Buy Now</string>
+    <string name="sells_add_remo">Sells</string>
+    <string name="sells_up">Update iteam</string>
+    <string name="sells_dele">Delete iteam</string>
+    <string name="sells_add">+ Add Iteam</string>
+    <string name="sells_tex_1">baby plants : 10</string>
+    <string name="sells_item_pri">price  : Rs.20000</string>
+    <string name="item_buy_size">baby plants :10 </string>
+    <string name="iteam_by_plus">+</string>
+    <string name="sells_by_iteam">baby plants 10 price :100 000</string>
+    <string name="iteam_totle">+</string>
+    <string name="iteam_view">total price: Rs.100 ,000</string>
+
 </resources>

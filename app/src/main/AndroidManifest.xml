@@ -12,6 +12,18 @@
         android:theme="@style/Theme.Mad_pro"
         tools:targetApi="31">
         <activity
+            android:name=".sells"
+            android:exported="false" />
+        <activity
+            android:name=".therd_item_by"
+            android:exported="false" />
+        <activity
+            android:name=".therd_detil_by"
+            android:exported="false" />
+        <activity
+            android:name=".second_buy"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
