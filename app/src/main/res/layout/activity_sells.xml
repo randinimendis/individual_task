@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E5FCFB"
+    android:background="#e5fce5"
     tools:context=".sells">
 
     <ImageView
@@ -25,6 +25,8 @@
         android:layout_width="300dp"
         android:layout_height="84dp"
         android:text="@string/iteam_by_tex1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sells_iteam_tex3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.432"
@@ -38,7 +40,8 @@
         android:layout_height="27dp"
         android:layout_marginBottom="488dp"
         android:text="@string/item_by_tex2"
-        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sells_ite_name1"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,7 +65,7 @@
         android:layout_height="52dp"
         android:layout_marginTop="36dp"
         android:text="@string/sells_add_remo"
-        android:textSize="34sp"
+        android:textSize="@dimen/sells_iteam1"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
         app:layout_constraintHorizontal_bias="0.052"
@@ -95,34 +98,31 @@
         android:id="@+id/button2"
         android:layout_width="295dp"
         android:layout_height="56dp"
-        android:layout_marginBottom="112dp"
+        android:layout_marginBottom="96dp"
+        android:backgroundTint="#FFEB3B"
         android:text="@string/sells_up"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sells_iteam_but1"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="@+id/imageView15"
-        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/imageView15" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="295dp"
         android:layout_height="58dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#ff0000"
         android:text="@string/sells_dele"
+        android:textSize="@dimen/sells_iteam_but2"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="@+id/imageView15"
-        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/imageView15" />
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="280dp"
-        android:layout_height="61dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/sells_add"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView22"
@@ -130,6 +130,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="296dp"
         android:text="@string/sells_tex_1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sells_iteam_tex1"
         app:layout_constraintBottom_toBottomOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="@+id/imageView15"
         app:layout_constraintHorizontal_bias="0.54"
@@ -139,8 +141,13 @@
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="276dp"
         android:text="@string/sells_item_pri"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="279dp" />
+        android:textColor="@color/black"
+        android:textSize="@dimen/sells_iteam_tex2"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="@+id/imageView15" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

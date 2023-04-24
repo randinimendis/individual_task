@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E5FCFB"
+    android:background="#e5fce5"
     tools:context=".therd_item_by">
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="149dp"
         android:layout_height="36dp"
-        android:layout_marginBottom="268dp"
+        android:layout_marginBottom="272dp"
         android:text="@string/item_buy_size"
-        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/iteam_viwe_tex1"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -48,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
         android:text="@string/item_viw_1"
-        android:textSize="34sp"
+        android:textSize="@dimen/item_view_hed1"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,6 +73,8 @@
         android:layout_height="70dp"
         android:layout_marginBottom="100dp"
         android:text="@string/iteam_by_tex1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/iteam_viwe_tex4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.357"
@@ -81,24 +84,28 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="224dp"
+        android:layout_marginBottom="220dp"
         android:text="@string/item_by_tex2"
-        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/iteam_viwe_nam1"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView10"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintHorizontal_bias="0.106"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="328dp"
-        android:layout_height="58dp"
+        android:layout_width="354dp"
+        android:layout_height="55dp"
         android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFEB3B"
         android:text="@string/by_iteam_buy_now"
+        android:textColor="@color/black"
+        android:textSize="@dimen/iteam_view_bu2"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.325"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -107,22 +114,27 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="476dp"
         android:text="@string/sells_by_iteam"
-        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/iteam_viwe_tex2"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintHorizontal_bias="0.211"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="175dp"
-        android:layout_height="51dp"
-        android:layout_marginBottom="264dp"
+        android:layout_width="180dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="272dp"
+        android:backgroundTint="#FFEB3B"
         android:text="@string/iteam_totle"
+        android:textColor="@color/black"
+        android:textSize="@dimen/tex_veiw_but1"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -131,7 +143,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="188dp"
         android:text="@string/iteam_view"
-        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/iteam_viwe_tex3"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

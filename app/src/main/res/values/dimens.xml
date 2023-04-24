@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_heder_size">34sp</dimen>
+    <dimen name="main_sell_buy_but1">34sp</dimen>
+    <dimen name="main_sell_buy_but2">34sp</dimen>
+    <dimen name="buy_header_tex1">34sp</dimen>
+    <dimen name="veiw_item_nam1">14sp</dimen>
+    <dimen name="veiw_iteam_pr1">14sp</dimen>
+    <dimen name="viwe_bu1">14sp</dimen>
+    <dimen name="veiw_item_nam2">14sp</dimen>
+    <dimen name="veiw_iteam_pr2">14sp</dimen>
+    <dimen name="viwe_bu2">14sp</dimen>
+    <dimen name="veiw_item_nam3">14sp</dimen>
+    <dimen name="veiw_iteam_pr3">14sp</dimen>
+    <dimen name="viwe_bu3">14sp</dimen>
+    <dimen name="sells_iteam1">34sp</dimen>
+    <dimen name="sells_ite_name1">16sp</dimen>
+    <dimen name="sells_iteam_tex1">14sp</dimen>
+    <dimen name="sells_iteam_tex2">14sp</dimen>
+    <dimen name="sells_iteam_tex3">14sp</dimen>
+    <dimen name="sells_iteam_but1">14sp</dimen>
+    <dimen name="sells_iteam_but2">14sp</dimen>
+    <dimen name="item_view_hed1">34sp</dimen>
+    <dimen name="iteam_viwe_nam1">20sp</dimen>
+    <dimen name="iteam_viwe_tex1">20sp</dimen>
+    <dimen name="iteam_viwe_tex2">20sp</dimen>
+    <dimen name="iteam_viwe_tex3">20sp</dimen>
+    <dimen name="iteam_viwe_tex4">14sp</dimen>
+    <dimen name="tex_veiw_but1">24sp</dimen>
+    <dimen name="iteam_view_bu2">16sp</dimen>
+    <dimen name="sells_iteam_list1">14sp</dimen>
+    <dimen name="iteam_tex_1">14sp</dimen>
+    <dimen name="sells_iteam_viwe_bu1">14sp</dimen>
+    <dimen name="sells_iteam_viwe_bu2">14sp</dimen>
+</resources>
