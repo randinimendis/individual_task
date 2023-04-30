@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Mad_pro"
         tools:targetApi="31">
         <activity
+            android:name=".itemaddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".buyandsellActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sellsAdditeam"
+            android:exported="false" />
+        <activity
             android:name=".startup"
             android:exported="false" />
         <activity
